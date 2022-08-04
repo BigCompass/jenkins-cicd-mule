@@ -45,9 +45,13 @@
 						<workers>1</workers>
 						<workerType>MICRO</workerType>
 						<properties>
-							<key>value</key>
+							<mule.env>dev</mule.env>
+							<mule.secure.key>asfsd</mule.secure.key>
+							<anypoint.platform.client_id>7a634adbafa442289aa3a0b483101f75</anypoint.platform.client_id>
+							<anypoint.platform.client_secret>eB233D308B30481F83E2C4FAB87c6520</anypoint.platform.client_secret>
 						</properties>
 					</cloudHubDeployment>
+					<classifier>mule-application</classifier>
 				</configuration>
 			</plugin>
 		</plugins>
